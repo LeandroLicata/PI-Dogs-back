@@ -9,7 +9,7 @@
 #### Instrucciones: 
 Para que funcione correctamente debes crear un archivo .env en la carpeta raíz y colocar lo siguiente:
 
-DB_DEPLOY=postgresql://postgres:CtM6lwCXUi2YH6fjNjcM@containers-us-west-171.railway.app:6159/railway
+DB_DEPLOY=postgres://ruzncqbm:BN4VygPhlUEk-Uv9t-HHjCc0hiXqLt06@babar.db.elephantsql.com/ruzncqbm
 
 PORT=3001
 
