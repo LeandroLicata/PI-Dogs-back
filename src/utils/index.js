@@ -27,9 +27,7 @@ const getDbDogs = async () => {
 };
 
 const getApiDogs = async () => {
-  const apiDogs = await axios.get(
-    `https://api.thedogapi.com/v1/breeds`
-  );
+  const apiDogs = await axios.get(`https://api.thedogapi.com/v1/breeds`);
   const apiDogsClean = apiDogs.data.map((dog) => {
     const temperament = dog.temperament?.split(", ");
     const weight = dog.weight.metric.split(" - ");
